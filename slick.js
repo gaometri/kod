@@ -1,4 +1,4 @@
-
+<script>
 ! function(a) { "use strict"; "function" == typeof define && define.amd ?
       define(["jquery"], a) : "undefined" != typeof exports ? module.exports =
       a(require("jquery")) : a(jQuery) }(function(a) {
@@ -988,4 +988,4 @@ $(document).ready(function() {
       ]
    });
 });
-
+</script>
