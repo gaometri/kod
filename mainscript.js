@@ -120,7 +120,7 @@ var setStickySidebar = function(){
 				if ((scrollTop+leftSidebarH+80) > article-tags)
 					leftSidebar.css({'position':'absolute', 'top':'auto', 'bottom':0});
 				else
-					leftSidebar.css({'position':'fixed', 'top':70, 'bottom':'auto'});
+					leftSidebar.css({'position':'fixed', 'top':0, 'bottom':'auto'});
 			}
 			else
 				leftSidebar.css({'position':'absolute', 'top':0, 'bottom':'auto'});
