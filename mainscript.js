@@ -113,12 +113,12 @@ var setStickySidebar = function(){
 
 			var leftSidebar = $('.article-left-box-inner');
 			var leftSidebarH = leftSidebar.outerHeight();
-			var comments = $('.w-header').offset().top;
+			var endOfTheArticlePos = $('#endOfTheArticle').offset().top;
 
 			if ((scrollTop+30) > wrapperTopPos)
 			{
-				if ((scrollTop+leftSidebarH+80) > comments)
-					leftSidebar.css({'position':'absolute', 'top':'auto', 'bottom':0});
+				if ((scrollTop+leftSidebarH+80) > endOfTheArticlePos)
+					leftSidebar.css({'position':'absolute', 'top':'auto', 'bottom':10});
 				else
 					leftSidebar.css({'position':'fixed', 'top':70, 'bottom':'auto'});
 			}
@@ -293,18 +293,22 @@ $(document).ready(function(){
     });
     $('.article-emoticons>li').on('mouseleave', function(e){
     	$(this).parent().removeClass('active');
-    }); 
+    });
+
+    
     
 });
 
-//Açlır pencereyi aç düğmesi
+
+/*live event triggers*/
+/*open popup modal from data attribute*/
 $(document).on('click', '[data-modal]', function(e){
 	e.preventDefault();
 	$('.m-modal-box').hide();
 	var modalId = $(this).attr('data-modal');
 	$('#'+modalId).show();
 });
-//Açlır pencereyi kapat düğmesi
+/*close popup modal clicked close button*/
 $(document).on('click', '.m-modal-close, .m-modal-overlay', function(e){
 	$(this).parents('.m-modal-box').hide();
 });
