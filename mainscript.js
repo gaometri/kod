@@ -113,14 +113,14 @@ var setStickySidebar = function(){
 
 			var leftSidebar = $('.article-left-box-inner');
 			var leftSidebarH = leftSidebar.outerHeight();
-			var article-tags = $('.article-tags').offset().top;
+			var comments = $('.w-header').offset().top;
 
 			if ((scrollTop+30) > wrapperTopPos)
 			{
-				if ((scrollTop+leftSidebarH+80) > article-tags)
+				if ((scrollTop+leftSidebarH+80) > comments)
 					leftSidebar.css({'position':'absolute', 'top':'auto', 'bottom':0});
 				else
-					leftSidebar.css({'position':'fixed', 'top':0, 'bottom':'auto'});
+					leftSidebar.css({'position':'fixed', 'top':70, 'bottom':'auto'});
 			}
 			else
 				leftSidebar.css({'position':'absolute', 'top':0, 'bottom':'auto'});
