@@ -113,7 +113,7 @@ var setStickySidebar = function(){
 
 			var leftSidebar = $('.article-left-box-inner');
 			var leftSidebarH = leftSidebar.outerHeight();
-			var comments = $('.w-header').offset().top;
+			var comments = $('.article-tags').offset().top;
 
 			if ((scrollTop+30) > wrapperTopPos)
 			{
