@@ -113,11 +113,11 @@ var setStickySidebar = function(){
 
 			var leftSidebar = $('.article-left-box-inner');
 			var leftSidebarH = leftSidebar.outerHeight();
-			var comments = $('.article-tags').offset().top;
+			var span = $('.article-tags').offset().top;
 
 			if ((scrollTop+30) > wrapperTopPos)
 			{
-				if ((scrollTop+leftSidebarH+80) > comments)
+				if ((scrollTop+leftSidebarH+80) > span)
 					leftSidebar.css({'position':'absolute', 'top':'auto', 'bottom':0});
 				else
 					leftSidebar.css({'position':'fixed', 'top':70, 'bottom':'auto'});
