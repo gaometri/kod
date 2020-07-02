@@ -3,7 +3,7 @@ FWDRAPUtils.onReady(function(){
     instanceName:"fwdrapPlayer0",
         parentId:"fwdrapDiv0",
        playlistsId:"fwdrapMainPlaylist0",
-       mainFolderPath:"http://www.webdesign-flash.ro/p/rap/content/",
+       mainFolderPath:"https://www.webdesign-flash.ro/p/rap/content/",
     skinPath:"modern_skin_white",
     showSoundCloudUserNameInTitle:"yes",
     useDeepLinking:"yes",
