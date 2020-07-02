@@ -1,6 +1,4 @@
-	<script type="text/javascript">
-
-		FWDRAPUtils.onReady(function(){
+FWDRAPUtils.onReady(function(){
    new FWDRAP({
     instanceName:"fwdrapPlayer0",
         parentId:"fwdrapDiv0",
