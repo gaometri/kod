@@ -1,6 +1,6 @@
 FWDRAPUtils.onReady(function(){
    new FWDRAP({
-    instanceName:"",
+    instanceName:"fwdrapPlayer0",
     parentId:"menu-m",
     playlistsId:"fwdrapMainPlaylist0",
     mainFolderPath:"https://www.webdesign-flash.ro/p/rap/content/",
