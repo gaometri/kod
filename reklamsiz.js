@@ -1,7 +1,4 @@
-		var page="demos";
-			var gridId = 0;
-
-			function setupDemoPlayer(){
+FWDRAPUtils.onReady(function(){
 				new FWDRAP({
 					//main settings
 					instanceName:"player1",
