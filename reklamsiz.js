@@ -1,9 +1,9 @@
 FWDRAPUtils.onReady(function(){
    new FWDRAP({
     instanceName:"fwdrapPlayer0",
-        parentId:"menu-m",
-       playlistsId:"fwdrapMainPlaylist0",
-       mainFolderPath:"https://www.webdesign-flash.ro/p/rap/content/",
+    parentId:"menu-m",
+    playlistsId:"fwdrapMainPlaylist0",
+    mainFolderPath:"https://www.webdesign-flash.ro/p/rap/content/",
     skinPath:"modern_skin_white",
     showSoundCloudUserNameInTitle:"yes",
     useDeepLinking:"yes",
@@ -20,7 +20,7 @@ FWDRAPUtils.onReady(function(){
     normalHEXButtonsColor:"#FF0000",
     selectedHEXButtonsColor:"#00FF00",
     maxWidth:851,
-    volume:.5,
+    volume:1,
     toolTipsButtonsHideDelay:1.5,
     toolTipsButtonFontColor:"#000000",
     animateOnIntro:"yes",
