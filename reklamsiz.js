@@ -8,6 +8,7 @@ FWDRAPUtils.onReady(function(){
     showSoundCloudUserNameInTitle:"yes",
     useDeepLinking:"yes",
     useYoutube:"yes",
+    youtubeAPIKey:"AIzaSyBQlBGEPaAq_UEgcxQ-wX9utp96_bD2dHU",
     useVideo:"no",
     rightClickContextMenu:"default",
     showButtonsToolTips:"yes",
