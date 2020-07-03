@@ -1,5 +1,8 @@
-FWDRAPUtils.onReady(function(){
-   new FWDRAP({
+var page="demos";
+			var gridId = 0;
+
+			function setupDemoPlayer(){
+				new FWDRAP({
 					//main settings
 					instanceName:"fwdrapPlayer0",
 					parentId:"menu-m",
