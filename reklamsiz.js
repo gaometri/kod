@@ -93,7 +93,7 @@ FWDRAPUtils.onReady(function(){
       
 //playback rate / speed
 playbackRateButtonsMargins: 7,
-showPlaybackRateButton:"yes",
+showPlaybackRateButton:"no",
 defaultPlaybackRate:1, //min - 0.5 / max - 3
 playbackRateWindowTextColor:"#FFFFFF",
 //search bar settings
