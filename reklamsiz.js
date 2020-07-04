@@ -1,6 +1,6 @@
 FWDRAPUtils.onReady(function(){
    new FWDRAP({
-     instanceName: "fwdrapPlayer0",
+    instanceName: "fwdrapPlayer0",
     parentId: "menu-m",
     playlistsId: "fwdrapMainPlaylist0",
     mainFolderPath: "https://www.webdesign-flash.ro/p/rap/content/",
@@ -113,7 +113,6 @@ FWDRAPUtils.onReady(function(){
     durationOffsetRight: 9,
     downloadButtonOffsetRight: 11,
     scrollbarOffestWidth: 7,
-
     //visualizer
     useVisualizer: 'yes',
     visualizerRandomPreset: "yes",
