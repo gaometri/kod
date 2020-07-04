@@ -1,15 +1,19 @@
 FWDRAPUtils.onReady(function(){
 new FWDRAP({
+new FWDRAP({
+//main settings
 instanceName:"fwdrapPlayer0",
 parentId:"menu-m",
 playlistsId:"fwdrapMainPlaylist0",
 mainFolderPath:"https://www.webdesign-flash.ro/p/rap/content/",
-skinPath:"modern_skin_white",
-showSoundCloudUserNameInTitle:"yes",
-useDeepLinking:"yes",
-useYoutube:"yes",
-youtubeAPIKey:"AIzaSyBQlBGEPaAq_UEgcxQ-wX9utp96_bD2dHU",
-useVideo:"yes",
+					skinPath:"modern_skin_white",
+					showSoundCloudUserNameInTitle:"yes",
+					googleAnalyticsTrackingCode:"",
+					proxyCors:"",
+					useDeepLinking:"yes",
+					useYoutube:"yes",
+					youtubeAPIKey:"",
+					useVideo:"yes",
 					rightClickContextMenu:"default",
 					showButtonsToolTips:"yes",
 					initializeOnlyWhenVisible:"no",
