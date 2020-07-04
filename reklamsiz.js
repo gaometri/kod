@@ -7,7 +7,7 @@ FWDRAPUtils.onReady(function(){
     skinPath: "modern_skin_white",
     showSoundCloudUserNameInTitle: "yes",
     useDeepLinking: "yes",
-    useYoutube: "yes",
+    useYoutube: "no",
     youtubeAPIKey: "AIzaSyBQlBGEPaAq_UEgcxQ-wX9utp96_bD2dHU",
     useVideo: "yes",
     rightClickContextMenu: "default",
@@ -31,7 +31,7 @@ FWDRAPUtils.onReady(function(){
     toolTipsButtonFontColor: "#FFFFFF",
     //controller settings
     animateOnIntro: "yes",
-    showFullScreenButton: "yes",
+    showFullScreenButton: "no",
     showNextAndPrevButtons: "yes",
     showThumbnail: "yes",
     showLoopButton: "yes",
@@ -90,7 +90,7 @@ FWDRAPUtils.onReady(function(){
     mainButtonTextSelectedColor: "#000000",
     //playlist settings
     playTrackAfterPlaylistLoad: "no",
-    showPlayListButtonAndPlaylist: "yes",
+    showPlayListButtonAndPlaylist: "no",
     showPlayListOnMobile: "yes",
     showPlayListByDefault: "yes",
     showPlaylistItemPlayButton: "yes",
