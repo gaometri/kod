@@ -7,7 +7,7 @@ FWDRAPUtils.onReady(function(){
     skinPath: "modern_skin_white",
     showSoundCloudUserNameInTitle: "yes",
     useDeepLinking: "yes",
-    useYoutube: "yes",
+    useYoutube: "no",
     youtubeAPIKey: "AIzaSyBQlBGEPaAq_UEgcxQ-wX9utp96_bD2dHU",
     useVideo: "no",
     rightClickContextMenu: "default",
