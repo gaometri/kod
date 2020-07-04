@@ -90,7 +90,12 @@ FWDRAPUtils.onReady(function(){
     durationOffsetRight:9,
     downloadButtonOffsetRight:11,
     scrollbarOffestWidth:7,
-      
+//visualizer
+useVisualizer:'yes',
+visualizerRandomPreset:"yes",
+visualizerPreset:"wave1",
+visualizerColor:["#AAAAAA", "#999999", "#888888", "#777777", "#666666"],
+visualizerCapColor: "#FFFFFF",
 //playback rate / speed
 playbackRateButtonsMargins: 7,
 showPlaybackRateButton:"no",
