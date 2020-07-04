@@ -93,22 +93,19 @@ FWDRAPUtils.onReady(function(){
     scrollbarOffestWidth:7,
     showPlaybackRateButton:"yes",
     playbackRateWindowTextColor:"#FFFFFF",
-    showSearchBar:"yes",
-    showSortButtons:"yes",
-    searchInputColor:"#000000",
-    searchBarHeight:42,
-    inputSearchTextOffsetTop:2,
-    inputSearchOffsetLeft:0,
-    showPopupButton:"yes",
-    popupWindowBackgroundColor:"#878787",
-    popupWindowWidth:800,
-    popupWindowHeight:466
-    //a to b loop
-	atbTimeTextColorNormal:"#888888",
-	atbTimeTextColorSelected:"#FFFFFF",
-	atbButtonTextNormalColor:"#888888",
-	tbButtonTextSelectedColor:"#FFFFFF",
-	atbButtonBackgroundNormalColor:"#FFFFFF",
-	atbButtonBackgroundSelectedColor:"#000000",  
+//search bar settings
+showSearchBar:"no",
+showSortButtons:"yes",
+searchInputColor:"#999999",
+searchBarHeight:38,
+inputSearchTextOffsetTop:1,
+inputSearchOffsetLeft:0,
+//popup settings
+showPopupButton:"no",
+openPopupOnPlay:"no",
+popupWindowBackgroundColor:"#878787",
+popupWindowWidth:790,
+popupWindowHeight:483,
+ 
    });
   });
