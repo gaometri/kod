@@ -107,7 +107,7 @@ FWDRAPUtils.onReady(function(){
     trackDurationColor: "#6a6a6a",
     playlistItemHeight: 33,
     maxPlaylistItems: 40,
-    nrOfVisiblePlaylistItems: 10,
+    nrOfVisiblePlaylistItems: 15,
     trackTitleOffsetLeft: 0,
     playPauseButtonOffsetLeftAndRight: 11,
     durationOffsetRight: 9,
