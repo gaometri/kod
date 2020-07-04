@@ -15,7 +15,7 @@ FWDRAPUtils.onReady(function(){
     initializeOnlyWhenVisible: "no",
     addKeyboardSupport: "yes",
     useContinuousPlayback: 'no',
-    autoPlay: "no",
+    autoPlay: "yes",
     loop: "no",
     shuffle: "no",
     useVectorIcons: "no",
@@ -31,7 +31,7 @@ FWDRAPUtils.onReady(function(){
     toolTipsButtonFontColor: "#FFFFFF",
     //controller settings
     animateOnIntro: "yes",
-    showFullScreenButton: "yes",
+    showFullScreenButton: "no",
     showNextAndPrevButtons: "yes",
     showThumbnail: "yes",
     showLoopButton: "yes",
