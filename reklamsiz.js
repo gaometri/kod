@@ -24,7 +24,7 @@ FWDRAPUtils.onReady(function(){
     toolTipsButtonsHideDelay:1.5,
     toolTipsButtonFontColor:"#000000",
     animateOnIntro:"yes",
-    showFullScreenButton:"yes",
+    showFullScreenButton:"no",
     showNextAndPrevButtons:"yes",
     showThumbnail:"yes",
     showSoundAnimation:"yes",
@@ -97,7 +97,7 @@ FWDRAPUtils.onReady(function(){
     searchBarHeight:42,
     inputSearchTextOffsetTop:2,
     inputSearchOffsetLeft:0,
-    showPopupButton:"yes",
+    showPopupButton:"no",
     popupWindowBackgroundColor:"#878787",
     popupWindowWidth:800,
     popupWindowHeight:466
