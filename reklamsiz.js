@@ -1,8 +1,8 @@
 FWDRAPUtils.onReady(function(){
    new FWDRAP({
-    instanceName:"fwdrapPlayer0",
-        parentId:"menu-m",
-       playlistsId:"fwdrapMainPlaylist0",
+  instanceName: "fwdrapPlayer0",
+    parentId: "menu-m",
+    playlistsId: "fwdrapMainPlaylist0",
        mainFolderPath:"https://github.com/gaometri/music/tree/master/content",
     skinPath:"modern_skin_white",
     showSoundCloudUserNameInTitle:"yes",
