@@ -1,6 +1,5 @@
 FWDRAPUtils.onReady(function(){
 new FWDRAP({
-new FWDRAP({
 //main settings
 instanceName:"fwdrapPlayer0",
 parentId:"menu-m",
