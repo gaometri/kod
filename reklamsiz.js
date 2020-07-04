@@ -61,7 +61,6 @@ FWDRAPUtils.onReady(function(){
     showPlaylistsByDefault:"no",
     thumbnailSelectedType:"opacity",
     startAtRandomTrack:"no",
-    showPlaybackRateButton:"no",
     startAtPlaylist:0,
     startAtTrack:0,
     buttonsMargins:7,
@@ -91,8 +90,12 @@ FWDRAPUtils.onReady(function(){
     durationOffsetRight:9,
     downloadButtonOffsetRight:11,
     scrollbarOffestWidth:7,
-    showPlaybackRateButton:"yes",
-    playbackRateWindowTextColor:"#FFFFFF",
+      
+//playback rate / speed
+playbackRateButtonsMargins: 7,
+showPlaybackRateButton:"yes",
+defaultPlaybackRate:1, //min - 0.5 / max - 3
+playbackRateWindowTextColor:"#FFFFFF",
 //search bar settings
 showSearchBar:"no",
 showSortButtons:"yes",
