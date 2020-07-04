@@ -7,7 +7,7 @@ FWDRAPUtils.onReady(function(){
     skinPath: "modern_skin_white",
     showSoundCloudUserNameInTitle: "yes",
     useDeepLinking: "yes",
-    useYoutube: "no",
+    useYoutube: "yes",
     youtubeAPIKey: "AIzaSyBQlBGEPaAq_UEgcxQ-wX9utp96_bD2dHU",
     useVideo: "yes",
     rightClickContextMenu: "default",
@@ -113,6 +113,7 @@ FWDRAPUtils.onReady(function(){
     durationOffsetRight: 9,
     downloadButtonOffsetRight: 11,
     scrollbarOffestWidth: 7,
+
     //visualizer
     useVisualizer: 'yes',
     visualizerRandomPreset: "yes",
