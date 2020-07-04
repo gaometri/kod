@@ -4,7 +4,7 @@ FWDRAPUtils.onReady(function(){
     parentId:"menu-m",
     playlistsId:"fwdrapMainPlaylist0",
     mainFolderPath:"https://www.webdesign-flash.ro/p/rap/content/",
-    skinPath:"minimal_skin_white",
+    skinPath:"modern_skin_white",
     showSoundCloudUserNameInTitle:"yes",
     useDeepLinking:"yes",
     useYoutube:"yes",
