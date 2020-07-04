@@ -103,5 +103,12 @@ FWDRAPUtils.onReady(function(){
     popupWindowBackgroundColor:"#878787",
     popupWindowWidth:800,
     popupWindowHeight:466
+    //a to b loop
+	atbTimeTextColorNormal:"#888888",
+	atbTimeTextColorSelected:"#FFFFFF",
+	atbButtonTextNormalColor:"#888888",
+	tbButtonTextSelectedColor:"#FFFFFF",
+	atbButtonBackgroundNormalColor:"#FFFFFF",
+	atbButtonBackgroundSelectedColor:"#000000",  
    });
   });
