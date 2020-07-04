@@ -20,7 +20,7 @@ FWDRAPUtils.onReady(function(){
     normalHEXButtonsColor:"#FF0000",
     selectedHEXButtonsColor:"#00FF00",
     maxWidth:851,
-    volume:.5,
+    volume:1,
     toolTipsButtonsHideDelay:1.5,
     toolTipsButtonFontColor:"#000000",
     animateOnIntro:"yes",
